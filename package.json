@@ -4,7 +4,7 @@
   "description": "this is a tutorial for learning mocha testing framework with chai assertions and more",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha 'test/**/async.app.spec.js' --timeout 50000"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/akshat2610/JS-testing-tutorial#readme",
   "dependencies": {
+    "axios": "^0.21.1",
     "chai": "^4.3.4",
     "mocha": "^8.3.2"
   }
