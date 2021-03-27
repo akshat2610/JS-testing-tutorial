@@ -1,3 +1,2 @@
 module.exports = {
-    ui: 'tdd'
 }
